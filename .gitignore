@@ -1,0 +1,23 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data Directory (keep folder, ignore raw large CSV outputs if desired)
+# data/*.csv
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db

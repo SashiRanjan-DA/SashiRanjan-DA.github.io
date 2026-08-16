@@ -1,0 +1,21 @@
+lender_id,lender_name,lender_type,head_office_city,state,processing_fee_percent,minimum_credit_score,maximum_loan_amount
+LEN1001,Bajaj Finance Limited,NBFC,Pune,Maharashtra,2.5,650,1500000.0
+LEN1002,Tata Capital Financial Services,NBFC,Mumbai,Maharashtra,2.0,680,1200000.0
+LEN1003,HDFC Bank Digital Loans,Bank,Mumbai,Maharashtra,1.5,720,2000000.0
+LEN1004,ICICI Bank Express Credit,Bank,Mumbai,Maharashtra,1.75,700,1800000.0
+LEN1005,Aditya Birla Finance Ltd,NBFC,Mumbai,Maharashtra,2.25,660,1000000.0
+LEN1006,KrazyBee Services Pvt Ltd,Fintech NBFC,Bengaluru,Karnataka,3.0,600,500000.0
+LEN1007,Navi Finserv Limited,Fintech NBFC,Bengaluru,Karnataka,2.75,620,800000.0
+LEN1008,L&T Finance Limited,NBFC,Mumbai,Maharashtra,2.0,670,1000000.0
+LEN1009,Muthoot Finance Ltd,NBFC,Kochi,Kerala,1.8,630,750000.0
+LEN1010,Mahindra & Mahindra Financial,NBFC,Mumbai,Maharashtra,2.5,640,900000.0
+LEN1011,Poonawalla Fincorp Limited,NBFC,Pune,Maharashtra,2.2,680,1200000.0
+LEN1012,Hero Fincorp Limited,NBFC,New Delhi,Delhi,2.5,650,600000.0
+LEN1013,TVS Credit Services Ltd,NBFC,Chennai,Tamil Nadu,2.4,630,500000.0
+LEN1014,IDFC FIRST Bank Personal Loans,Bank,Mumbai,Maharashtra,1.9,710,1500000.0
+LEN1015,PayU Finance India Pvt Ltd,Fintech NBFC,Gurugram,Haryana,3.25,600,400000.0
+LEN1016,InCred Financial Services,Fintech NBFC,Mumbai,Maharashtra,2.8,650,1000000.0
+LEN1017,Northern Arc Capital Ltd,NBFC,Chennai,Tamil Nadu,2.1,660,1200000.0
+LEN1018,Vivriti Capital Limited,NBFC,Chennai,Tamil Nadu,2.0,670,1500000.0
+LEN1019,DMI Finance Private Limited,Fintech NBFC,New Delhi,Delhi,3.0,620,500000.0
+LEN1020,Faircent P2P Lending,P2P Platform,Gurugram,Haryana,3.5,600,300000.0
