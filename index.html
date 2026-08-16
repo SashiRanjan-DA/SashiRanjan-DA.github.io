@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sashi Ranjan | Data &amp; Business Analyst</title>
+  <meta name="description" content="Sashi Ranjan is a Data &amp; Business Analyst skilled in SQL, Python, Power BI, Excel and Tableau, focused on turning complex data into meaningful business insights and smarter decisions." />
+  <meta name="keywords" content="Sashi Ranjan, Data Analyst, Business Analyst, SQL, Python, Power BI, Tableau, Excel, FinTech Analytics, Tesla Analytics, Business Intelligence, Data Storytelling" />
+  <meta name="author" content="Sashi Ranjan" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sashi Ranjan | Data &amp; Business Analyst" />
+  <meta property="og:description" content="Turning complex data into clear insights and smarter business decisions. Explore featured analytics case studies, interactive dashboards, and technical capabilities." />
+  <meta property="og:url" content="https://sashiranjan-da.github.io/" />
+  <meta property="og:site_name" content="Sashi Ranjan Portfolio" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%238B5CF6'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='46' fill='%23F8F7FB'>SR</text></svg>" type="image/svg+xml" />
+</head>
+<body class="bg-primary text-primary antialiased selection:bg-purple-primary selection:text-white">
+
+  <!-- Ambient Lighting Background Gradients -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-middle" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Custom Cursor Glow (Desktop Only) -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ==================== 1. FLOATING NAVIGATION ==================== -->
+  <header class="fixed-nav-wrapper">
+    <nav class="nav-container" id="mainNav" aria-label="Main Navigation">
+      <!-- Logo -->
+      <a href="#hero" class="nav-brand" aria-label="Sashi Ranjan Home">
+        <div class="brand-logo-badge">SR</div>
+        <div class="brand-text-group">
+          <span class="brand-name">SASHI RANJAN</span>
+          <span class="brand-sub">DATA &amp; BUSINESS ANALYST</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links" id="desktopNavLinks">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#what-i-do" class="nav-link">Overview</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#skills" class="nav-link">Toolkit</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+      </ul>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button type="button" class="btn btn-outline btn-sm" id="navResumeBtn" aria-label="Open Resume Preview">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <span>Resume</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">
+          <span>Let's Talk</span>
+          <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Navigation Overlay Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <div class="brand-text-group">
+          <span class="brand-name">SASHI RANJAN</span>
+          <span class="brand-sub">DATA &amp; BUSINESS ANALYST</span>
+        </div>
+        <button type="button" class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#what-i-do" class="mobile-nav-link">What I Do</a></li>
+        <li><a href="#work" class="mobile-nav-link">Selected Work</a></li>
+        <li><a href="#process" class="mobile-nav-link">Analytical Process</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Analytical Toolkit</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience &amp; Story</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education &amp; Honors</a></li>
+        <li><a href="#about" class="mobile-nav-link">Beyond The Data</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <button type="button" class="btn btn-outline w-full mb-3" id="mobileResumeBtn">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+          <span>View Resume</span>
+        </button>
+        <a href="#contact" class="btn btn-primary w-full mobile-cta-close">
+          <span>Let's Talk</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- ==================== 2. HERO SECTION ==================== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <!-- Hero Text Column -->
+        <div class="hero-content">
+          <div class="hero-eyebrow-wrapper">
+            <span class="status-indicator"></span>
+            <span class="eyebrow-text">DATA &amp; BUSINESS ANALYST</span>
+          </div>
+
+          <h1 class="hero-title">
+            I TURN COMPLEX DATA INTO <span class="text-gradient">CLEAR INSIGHTS</span> AND SMARTER BUSINESS DECISIONS.
+          </h1>
+
+          <p class="hero-subtitle">
+            I use <strong class="text-white font-semibold">SQL</strong>, <strong class="text-white font-semibold">Python</strong>, <strong class="text-white font-semibold">Excel</strong>, <strong class="text-white font-semibold">Power BI</strong> and <strong class="text-white font-semibold">Tableau</strong> to analyze data, uncover hidden patterns, and build decision-ready business solutions that drive measurable impact.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#work" class="btn btn-primary btn-lg">
+              <span>Explore My Work</span>
+              <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <button type="button" class="btn btn-glass btn-lg" id="heroResumeBtn">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>View Resume</span>
+            </button>
+            <div class="hero-social-row">
+              <a href="https://github.com/SashiRanjan-DA" target="_blank" rel="noopener noreferrer" class="btn btn-icon-only" aria-label="GitHub Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="https://linkedin.com/in/sashi-ranjan" target="_blank" rel="noopener noreferrer" class="btn btn-icon-only" aria-label="LinkedIn Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Micro Signal Strip -->
+          <div class="hero-signal-bar">
+            <div class="signal-item">
+              <span class="signal-dot"></span>
+              <span class="signal-label">Relational Databases &amp; ETL</span>
+            </div>
+            <div class="signal-item">
+              <span class="signal-dot"></span>
+              <span class="signal-label">KPI &amp; Financial Modeling</span>
+            </div>
+            <div class="signal-item">
+              <span class="signal-dot"></span>
+              <span class="signal-label">Executive Dashboards</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Column: Interactive Analytics Command Center -->
+        <div class="hero-visual-wrapper" id="heroVisualWrapper">
+          <div class="command-center-glass" id="commandCenter">
+            <!-- Glass Header Bar -->
+            <div class="command-header">
+              <div class="window-controls">
+                <span class="win-dot close"></span>
+                <span class="win-dot minimize"></span>
+                <span class="win-dot maximize"></span>
+              </div>
+              <div class="command-title">
+                <svg class="icon-mini" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                <span>ANALYTICS_COMMAND_CENTER.sql</span>
+              </div>
+              <div class="live-tag">
+                <span class="pulse-green"></span>
+                <span>SYSTEM LIVE</span>
+              </div>
+            </div>
+
+            <!-- Terminal SQL Query Display -->
+            <div class="command-terminal">
+              <div class="terminal-line"><span class="sql-kw">SELECT</span> business_metric, impact_score, confidence</div>
+              <div class="terminal-line"><span class="sql-kw">FROM</span> portfolio_analytics.<span class="sql-fn">decision_pipeline</span></div>
+              <div class="terminal-line"><span class="sql-kw">WHERE</span> signal = <span class="sql-str">'actionable'</span> <span class="sql-kw">AND</span> status = <span class="sql-str">'validated'</span>;</div>
+            </div>
+
+            <!-- Live KPI Metric Cards Grid -->
+            <div class="command-kpi-grid">
+              <div class="kpi-micro-card">
+                <div class="kpi-meta">RECORDS ANALYZED</div>
+                <div class="kpi-number" data-target="592000" id="heroKpi1">592K+</div>
+                <div class="kpi-trend positive">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                  <span>Fintech Pipeline</span>
+                </div>
+              </div>
+
+              <div class="kpi-micro-card">
+                <div class="kpi-meta">DAX MEASURES</div>
+                <div class="kpi-number" data-target="30" id="heroKpi2">30+</div>
+                <div class="kpi-trend positive">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                  <span>Tesla 5-Pg BI</span>
+                </div>
+              </div>
+
+              <div class="kpi-micro-card">
+                <div class="kpi-meta">ECONOMIC DATASET</div>
+                <div class="kpi-number" data-target="1600" id="heroKpi3">1,600+</div>
+                <div class="kpi-trend positive">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                  <span>Global AI Study</span>
+                </div>
+              </div>
+
+              <div class="kpi-micro-card highlight-gold">
+                <div class="kpi-meta">HACKATHON RANK</div>
+                <div class="kpi-number gold-text">#1 🏆</div>
+                <div class="kpi-trend highlight-badge">
+                  <span>ITVedant Winner</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dynamic Interactive Sparkline / Distribution Preview -->
+            <div class="command-chart-box">
+              <div class="chart-header">
+                <span class="chart-title">REAL-TIME PORTFOLIO FUNNEL &amp; DELINQUENCY DISPERSION</span>
+                <span class="chart-badge">Active Model</span>
+              </div>
+              <div class="chart-canvas-container">
+                <svg class="hero-sparkline-svg" viewBox="0 0 400 90" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.5"/>
+                      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.0"/>
+                    </linearGradient>
+                  </defs>
+                  <path class="sparkline-fill" d="M 0,75 Q 40,65 80,45 T 160,50 T 240,25 T 320,35 T 400,15 L 400,90 L 0,90 Z" fill="url(#chartGrad)"/>
+                  <path class="sparkline-stroke" d="M 0,75 Q 40,65 80,45 T 160,50 T 240,25 T 320,35 T 400,15" fill="none" stroke="#A855F7" stroke-width="2.5"/>
+                  <circle cx="80" cy="45" r="4" class="chart-node node-pulse"/>
+                  <circle cx="240" cy="25" r="4" class="chart-node"/>
+                  <circle cx="400" cy="15" r="4" class="chart-node node-pulse"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Decision Insight Banner -->
+            <div class="command-insight-bar">
+              <div class="insight-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
+              </div>
+              <div class="insight-content">
+                <span class="insight-tag">EXECUTIVE INSIGHT DETECTED</span>
+                <span class="insight-text">Underwriting optimization reduced simulated early default risk by 14.8%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. TRUST & CREDIBILITY STRIP ==================== -->
+    <section class="credibility-strip-section" aria-label="Core Analytical Metrics">
+      <div class="container">
+        <div class="credibility-grid">
+          <div class="credibility-item">
+            <div class="cred-num"><span class="counter" data-count="592">592</span>K+</div>
+            <div class="cred-desc">Records Cleaned &amp; Modeled in Relational Schemas</div>
+          </div>
+          <div class="credibility-divider"></div>
+          <div class="credibility-item">
+            <div class="cred-num"><span class="counter" data-count="30">30</span>+</div>
+            <div class="cred-desc">Complex DAX Measures &amp; Time-Intelligence KPIs</div>
+          </div>
+          <div class="credibility-divider"></div>
+          <div class="credibility-item">
+            <div class="cred-num"><span class="counter" data-count="1600">1,600</span>+</div>
+            <div class="cred-desc">Economic &amp; AI Labor Records Explored</div>
+          </div>
+          <div class="credibility-divider"></div>
+          <div class="credibility-item">
+            <div class="cred-num gold-text">1st Place 🏆</div>
+            <div class="cred-desc">ITVedant Data Analytics Hackathon Winner</div>
+          </div>
+        </div>
+
+        <!-- Tech Badges Strip -->
+        <div class="tech-marquee-wrapper">
+          <div class="tech-badge-track">
+            <span class="tech-pill"><span class="pill-dot"></span>SQL (MySQL / CTEs / Window Functions)</span>
+            <span class="tech-pill"><span class="pill-dot"></span>Python (Pandas / NumPy / SQLAlchemy)</span>
+            <span class="tech-pill"><span class="pill-dot"></span>Power BI (DAX / Power Query / Data Modeling)</span>
+            <span class="tech-pill"><span class="pill-dot"></span>Advanced Excel (Pivot Tables / XLOOKUP / Dynamic Arrays)</span>
+            <span class="tech-pill"><span class="pill-dot"></span>Tableau (Interactive Business Dashboards)</span>
+            <span class="tech-pill"><span class="pill-dot"></span>ETL Pipelines &amp; Data Validation</span>
+            <span class="tech-pill"><span class="pill-dot"></span>Financial &amp; Risk Analytics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. WHAT I DO SECTION ==================== -->
+    <section id="what-i-do" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge">CORE CAPABILITIES</div>
+          <h2 class="section-title">I DON'T JUST ANALYZE DATA. <br/><span class="text-gradient">I USE IT TO ANSWER BUSINESS QUESTIONS.</span></h2>
+          <p class="section-subtitle">
+            Bridging technical data processing with strategic commercial execution. Every dataset holds an answer; my job is asking the right questions.
+          </p>
+        </div>
+
+        <div class="cards-grid-5">
+          <!-- Card 1: Data Analysis -->
+          <div class="capability-card">
+            <div class="cap-header">
+              <div class="cap-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <span class="cap-num">01</span>
+            </div>
+            <h3 class="cap-title">Data Analysis</h3>
+            <p class="cap-desc">
+              Transforming raw, heterogeneous datasets into structured information that reveals hidden patterns, trends, customer segments, and revenue opportunities.
+            </p>
+            <div class="cap-tools">
+              <span class="tool-tag">SQL</span>
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">Pandas</span>
+              <span class="tool-tag">NumPy</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Business Intelligence -->
+          <div class="capability-card">
+            <div class="cap-header">
+              <div class="cap-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <span class="cap-num">02</span>
+            </div>
+            <h3 class="cap-title">Business Intelligence</h3>
+            <p class="cap-desc">
+              Designing multi-page executive dashboards and KPI frameworks with drill-throughs, bookmarks, and slicers to make complex performance intuitive.
+            </p>
+            <div class="cap-tools">
+              <span class="tool-tag">Power BI</span>
+              <span class="tool-tag">DAX</span>
+              <span class="tool-tag">Tableau</span>
+              <span class="tool-tag">Excel</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Data Transformation -->
+          <div class="capability-card">
+            <div class="cap-header">
+              <div class="cap-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg>
+              </div>
+              <span class="cap-num">03</span>
+            </div>
+            <h3 class="cap-title">Data Transformation &amp; ETL</h3>
+            <p class="cap-desc">
+              Cleaning, transforming, normalizing, and validating relational data. Implementing automated ETL workflows to ensure analytics-ready integrity.
+            </p>
+            <div class="cap-tools">
+              <span class="tool-tag">Power Query</span>
+              <span class="tool-tag">ETL</span>
+              <span class="tool-tag">SQLAlchemy</span>
+              <span class="tool-tag">Data Cleaning</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Business Insights -->
+          <div class="capability-card">
+            <div class="cap-header">
+              <div class="cap-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              </div>
+              <span class="cap-num">04</span>
+            </div>
+            <h3 class="cap-title">Business Insights &amp; Strategy</h3>
+            <p class="cap-desc">
+              Translating raw analytical outputs into actionable commercial recommendations, identifying bottlenecks, and quantifying revenue and retention impact.
+            </p>
+            <div class="cap-tools">
+              <span class="tool-tag">Funnel Optimization</span>
+              <span class="tool-tag">Risk Assessment</span>
+              <span class="tool-tag">KPI Analysis</span>
+            </div>
+          </div>
+
+          <!-- Card 5: Data Storytelling -->
+          <div class="capability-card">
+            <div class="cap-header">
+              <div class="cap-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <span class="cap-num">05</span>
+            </div>
+            <h3 class="cap-title">Data Storytelling</h3>
+            <p class="cap-desc">
+              Turning complex numbers into clear, compelling narratives that align stakeholders, de-risk executive choices, and accelerate decision velocity.
+            </p>
+            <div class="cap-tools">
+              <span class="tool-tag">Executive Reporting</span>
+              <span class="tool-tag">Visual Narrative</span>
+              <span class="tool-tag">Stakeholder Comms</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. FEATURED PROJECTS (SELECTED WORK) ==================== -->
+    <section id="work" class="section-padding bg-deep">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">PORTFOLIO CASE STUDIES</div>
+          <h2 class="section-title">SELECTED WORK</h2>
+          <p class="section-subtitle">
+            Real projects. Real datasets. Business-focused analytical architecture.
+          </p>
+        </div>
+
+        <div class="projects-stack">
+          <!-- ================= PROJECT 01: DIGITAL LENDING & FINTECH ================= -->
+          <article class="project-card flagship-card project-fintech-theme" id="project-lending">
+            <div class="project-inner-grid">
+              <!-- Left Details -->
+              <div class="project-info">
+                <div class="project-meta-top">
+                  <span class="project-index">PROJECT 01 — FLAGSHIP CASE STUDY</span>
+                  <span class="category-badge fintech">FINTECH &bull; RELATIONAL SQL &bull; PYTHON &bull; POWER BI</span>
+                </div>
+
+                <h3 class="project-title">Digital Lending &amp; FinTech Analytics Pipeline</h3>
+
+                <p class="project-summary">
+                  Engineered an end-to-end fintech analytics pipeline that generates, cleans, validates, and transforms <strong class="text-white">592K+ records</strong> across <strong class="text-white">7 interconnected datasets</strong> covering customers, loan underwriting, EMI repayment schedules, delinquency tracking, and recovery collections.
+                </p>
+
+                <!-- Project Metrics Strip -->
+                <div class="project-metrics-grid">
+                  <div class="p-metric">
+                    <span class="p-val">592K+</span>
+                    <span class="p-lbl">Records Processed</span>
+                  </div>
+                  <div class="p-metric">
+                    <span class="p-val">7 Tables</span>
+                    <span class="p-lbl">Relational Database</span>
+                  </div>
+                  <div class="p-metric">
+                    <span class="p-val">End-to-End</span>
+                    <span class="p-lbl">ETL Architecture</span>
+                  </div>
+                </div>
+
+                <!-- Core Highlights Bullet list -->
+                <ul class="project-bullets">
+                  <li>Designed and loaded a normalized MySQL schema with strict foreign key constraints, indexing, and data quality assertions using Python, SQLAlchemy, and PyMySQL.</li>
+                  <li>Built analytical models and KPI frameworks to evaluate loan approval funnels, customer risk tiers, default probabilities, and debt recovery efficiency.</li>
+                  <li>Delivered decision-ready Power BI reporting layers for executive credit committees.</li>
+                </ul>
+
+                <!-- Tech Stack Chips -->
+                <div class="project-tech-tags">
+                  <span class="tech-chip">Python</span>
+                  <span class="tech-chip">MySQL</span>
+                  <span class="tech-chip">SQLAlchemy</span>
+                  <span class="tech-chip">PyMySQL</span>
+                  <span class="tech-chip">Pandas</span>
+                  <span class="tech-chip">Power BI</span>
+                  <span class="tech-chip">Data Modeling</span>
+                </div>
+
+                <div class="project-actions">
+                  <button type="button" class="btn btn-primary open-case-study" data-project="digital-lending">
+                    <span>View Case Study</span>
+                    <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </button>
+                  <a href="https://github.com/SashiRanjan-DA" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <svg class="icon-mini" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                    <span>GitHub Code</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Right Visual Representation: Premium Artwork + Technical Schema Preview -->
+              <div class="project-visual">
+                <!-- Premium Cinematic Artwork Visual -->
+                <div class="project-artwork-card fintech-theme">
+                  <div class="artwork-frame">
+                    <img src="assets/projects/digital-lending.jpg" alt="Digital Lending and FinTech Analytics Pipeline Visualization" loading="lazy" class="project-artwork-img" />
+                    <div class="artwork-hud-overlay">
+                      <div class="hud-tag-row">
+                        <span class="hud-theme-pill fintech-pill"><span class="hud-pulse cyan"></span>FINTECH DATA PIPELINE</span>
+                        <span class="hud-metric-pill">592K+ RECORDS</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="visual-panel-glass">
+                  <!-- Panel Bar -->
+                  <div class="panel-header">
+                    <div class="panel-breadcrumbs">
+                      <span class="active-tab-indicator"></span>
+                      <span>FINTECH_DATA_PIPELINE &bull; ARCHITECTURE &amp; SCHEMA</span>
+                    </div>
+                    <span class="status-chip success">ETL COMPLETED</span>
+                  </div>
+
+                  <!-- Visual Pipeline Flow Nodes -->
+                  <div class="pipeline-flow-diagram">
+                    <div class="p-node"><span class="node-badge">01</span><span class="node-name">Data Gen (Python)</span></div>
+                    <div class="p-arrow">&rarr;</div>
+                    <div class="p-node"><span class="node-badge">02</span><span class="node-name">Validation &amp; Clean</span></div>
+                    <div class="p-arrow">&rarr;</div>
+                    <div class="p-node"><span class="node-badge">03</span><span class="node-name">MySQL (7 Relational Tables)</span></div>
+                    <div class="p-arrow">&rarr;</div>
+                    <div class="p-node"><span class="node-badge">04</span><span class="node-name">Power BI KPIs</span></div>
+                  </div>
+
+                  <!-- Miniature Interactive Table Visualizer -->
+                  <div class="db-schema-preview">
+                    <div class="schema-table-card">
+                      <div class="table-header">
+                        <span class="table-name">customer_master</span>
+                        <span class="table-rows">1,500 rows</span>
+                      </div>
+                      <div class="table-fields">
+                        <div class="field-row pk"><span class="key-icon">PK</span> customer_id (VARCHAR)</div>
+                        <div class="field-row">credit_score (INT)</div>
+                        <div class="field-row">monthly_income (DECIMAL)</div>
+                        <div class="field-row">employment_type (VARCHAR)</div>
+                      </div>
+                    </div>
+
+                    <div class="schema-table-card highlight-border">
+                      <div class="table-header">
+                        <span class="table-name">loan_application</span>
+                        <span class="table-rows">3,000 rows</span>
+                      </div>
+                      <div class="table-fields">
+                        <div class="field-row pk"><span class="key-icon">PK</span> application_id</div>
+                        <div class="field-row fk"><span class="key-icon">FK</span> customer_id</div>
+                        <div class="field-row fk"><span class="key-icon">FK</span> lender_id</div>
+                        <div class="field-row">loan_status (Approved/Rejected)</div>
+                      </div>
+                    </div>
+
+                    <div class="schema-table-card">
+                      <div class="table-header">
+                        <span class="table-name">repayment_schedule</span>
+                        <span class="table-rows">8,000 rows</span>
+                      </div>
+                      <div class="table-fields">
+                        <div class="field-row pk"><span class="key-icon">PK</span> repayment_id</div>
+                        <div class="field-row fk"><span class="key-icon">FK</span> application_id</div>
+                        <div class="field-row">emi_amount (DECIMAL)</div>
+                        <div class="field-row">dpd_status (0, 30+, 60+, 90+)</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Miniature Query Snippet Window -->
+                  <div class="mini-query-box">
+                    <div class="mini-query-label">SAMPLE RISK SEGMENTATION SQL QUERY</div>
+                    <pre class="sql-code"><code><span class="sql-kw">SELECT</span> c.employment_type,
+       <span class="sql-fn">AVG</span>(c.credit_score) <span class="sql-kw">AS</span> avg_score,
+       <span class="sql-fn">SUM</span>(l.loan_amount)  <span class="sql-kw">AS</span> total_disbursed,
+       <span class="sql-fn">COUNT</span>(<span class="sql-kw">CASE WHEN</span> r.dpd &gt; 30 <span class="sql-kw">THEN</span> 1 <span class="sql-kw">END</span>) * 100.0 / <span class="sql-fn">COUNT</span>(*) <span class="sql-kw">AS</span> delinquency_rate_pct
+<span class="sql-kw">FROM</span> customer c <span class="sql-kw">JOIN</span> loan_application l <span class="sql-kw">ON</span> c.customer_id = l.customer_id
+<span class="sql-kw">JOIN</span> repayment r <span class="sql-kw">ON</span> l.application_id = r.application_id
+<span class="sql-kw">GROUP BY</span> c.employment_type;</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ================= PROJECT 02: TESLA BUSINESS ANALYTICS ================= -->
+          <article class="project-card project-automotive-theme" id="project-tesla">
+            <div class="project-inner-grid">
+              <!-- Left Details -->
+              <div class="project-info">
+                <div class="project-meta-top">
+                  <span class="project-index">PROJECT 02</span>
+                  <span class="category-badge bi">BUSINESS INTELLIGENCE &bull; POWER BI &bull; DAX</span>
+                </div>
+
+                <h3 class="project-title">Tesla Business Performance Analytics (2015–2025)</h3>
+
+                <p class="project-summary">
+                  Constructed a comprehensive <strong class="text-white">5-page interactive Power BI dashboard</strong> analyzing Tesla's decade-long business trajectory, evaluating vehicle production, automotive deliveries, revenue expansion, gross margins, and executive financial KPIs.
+                </p>
+
+                <!-- Project Metrics Strip -->
+                <div class="project-metrics-grid">
+                  <div class="p-metric">
+                    <span class="p-val">5-Page</span>
+                    <span class="p-lbl">Interactive Report</span>
+                  </div>
+                  <div class="p-metric">
+                    <span class="p-val">30+ Measures</span>
+                    <span class="p-lbl">Complex DAX Calculations</span>
+                  </div>
+                  <div class="p-metric">
+                    <span class="p-val">2015–2025</span>
+                    <span class="p-lbl">Historical Horizon</span>
+                  </div>
+                </div>
+
+                <!-- Core Highlights Bullet list -->
+                <ul class="project-bullets">
+                  <li>Authored 30+ sophisticated DAX measures for YoY growth, profit margin sensitivity, rolling quarter averages, and dynamic variance analysis.</li>
+                  <li>Applied Power Query ETL procedures for data cleansing, date dimension table generation, and star-schema relationships.</li>
+                  <li>Implemented dynamic drill-throughs, custom bookmarks, interactive slicers, and executive summary KPI views.</li>
+                </ul>
+
+                <!-- Tech Stack Chips -->
+                <div class="project-tech-tags">
+                  <span class="tech-chip">Power BI</span>
+                  <span class="tech-chip">DAX</span>
+                  <span class="tech-chip">Power Query</span>
+                  <span class="tech-chip">Data Modeling</span>
+                  <span class="tech-chip">Dashboard Design</span>
+                  <span class="tech-chip">Financial Analysis</span>
+                </div>
+
+                <div class="project-actions">
+                  <button type="button" class="btn btn-primary open-case-study" data-project="tesla-analytics">
+                    <span>View Case Study</span>
+                    <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </button>
+                  <a href="https://github.com/SashiRanjan-DA" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <svg class="icon-mini" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                    <span>View Repository</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Right Visual Representation: Premium Artwork + Interactive 5-Page Dashboard Mockup -->
+              <div class="project-visual">
+                <!-- Premium Cinematic Artwork Visual -->
+                <div class="project-artwork-card automotive-theme">
+                  <div class="artwork-frame">
+                    <img src="assets/projects/tesla-analytics.jpg" alt="Automotive Business Performance Analytics Visualization" loading="lazy" class="project-artwork-img" />
+                    <div class="artwork-hud-overlay">
+                      <div class="hud-tag-row">
+                        <span class="hud-theme-pill automotive-pill"><span class="hud-pulse red"></span>AUTOMOTIVE BI &bull; POWER BI</span>
+                        <span class="hud-metric-pill">5-PAGE DASHBOARD</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="visual-panel-glass">
+                  <!-- Dashboard Switcher Tabs -->
+                  <div class="dashboard-tabs-bar" id="teslaTabs">
+                    <button class="dash-tab active" data-tab="exec">1. Executive Overview</button>
+                    <button class="dash-tab" data-tab="rev">2. Revenue &amp; Margins</button>
+                    <button class="dash-tab" data-tab="prod">3. Production &amp; Delivery</button>
+                    <button class="dash-tab" data-tab="seg">4. Energy &amp; Services</button>
+                    <button class="dash-tab" data-tab="geo">5. Global Performance</button>
+                  </div>
+
+                  <!-- Dashboard Content Container -->
+                  <div class="dashboard-mockup-body" id="teslaDashContent">
+                    <!-- Dynamic Tab Body (Controlled via JS) -->
+                    <div class="dash-kpi-row">
+                      <div class="mini-kpi">
+                        <span class="m-label">TOTAL REVENUE (YoY)</span>
+                        <span class="m-val">$96.7B <span class="trend-up">&uarr;</span></span>
+                      </div>
+                      <div class="mini-kpi">
+                        <span class="m-label">DELIVERIES</span>
+                        <span class="m-val">1.81M Units</span>
+                      </div>
+                      <div class="mini-kpi">
+                        <span class="m-label">OPERATING MARGIN</span>
+                        <span class="m-val">9.2%</span>
+                      </div>
+                    </div>
+
+                    <!-- Abstract Chart Visualizer -->
+                    <div class="dash-chart-area">
+                      <div class="chart-legend-row">
+                        <span class="legend-item"><span class="leg-color bg-purple"></span> Revenue Growth</span>
+                        <span class="legend-item"><span class="leg-color bg-lavender"></span> Gross Profit</span>
+                        <span class="legend-tag">DAX Time-Intelligence Active</span>
+                      </div>
+                      <div class="bar-chart-simulation">
+                        <div class="bar-col"><div class="bar-fill" style="height: 25%"></div><span>'18</span></div>
+                        <div class="bar-col"><div class="bar-fill" style="height: 35%"></div><span>'19</span></div>
+                        <div class="bar-col"><div class="bar-fill" style="height: 48%"></div><span>'20</span></div>
+                        <div class="bar-col"><div class="bar-fill" style="height: 65%"></div><span>'21</span></div>
+                        <div class="bar-col"><div class="bar-fill" style="height: 82%"></div><span>'22</span></div>
+                        <div class="bar-col"><div class="bar-fill" style="height: 95%"></div><span>'23</span></div>
+                        <div class="bar-col"><div class="bar-fill active" style="height: 98%"></div><span>'24</span></div>
+                      </div>
+                    </div>
+
+                    <!-- DAX Formula Preview -->
+                    <div class="mini-dax-bar">
+                      <span class="dax-label">DAX Measure:</span>
+                      <code>YoY Revenue Growth % = DIVIDE([Total Revenue] - [Revenue LY], [Revenue LY], 0)</code>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ================= PROJECT 03: AI & GLOBAL ECONOMY ================= -->
+          <article class="project-card project-ai-theme" id="project-ai">
+            <div class="project-inner-grid">
+              <!-- Left Details -->
+              <div class="project-info">
+                <div class="project-meta-top">
+                  <span class="project-index">PROJECT 03 — AWARD WINNING</span>
+                  <span class="category-badge award">🏆 1ST PLACE &bull; DATA ANALYTICS HACKATHON</span>
+                </div>
+
+                <h3 class="project-title">AI &amp; Its Impact on the Global Economy</h3>
+
+                <p class="project-summary">
+                  Conducted comprehensive exploratory and comparative data analysis across a dataset of <strong class="text-white">1,600+ records</strong> to evaluate artificial intelligence adoption rates, cross-industry workforce disruption, productivity shifts, and macro-economic repercussions across multiple economies.
+                </p>
+
+                <!-- Project Metrics Strip -->
+                <div class="project-metrics-grid">
+                  <div class="p-metric">
+                    <span class="p-val">1,600+</span>
+                    <span class="p-lbl">Economic Records</span>
+                  </div>
+                  <div class="p-metric gold-metric">
+                    <span class="p-val gold-text">1st Place</span>
+                    <span class="p-lbl">ITVedant Hackathon</span>
+                  </div>
+                  <div class="p-metric">
+                    <span class="p-val">Multi-Tab</span>
+                    <span class="p-lbl">Excel Dashboard</span>
+                  </div>
+                </div>
+
+                <!-- Core Highlights Bullet list -->
+                <ul class="project-bullets">
+                  <li>Built dynamic, multi-dimensional Excel dashboards leveraging Pivot Tables, nested formulas, XLOOKUP, and custom interactive slicers.</li>
+                  <li>Synthesized labor market trends into structured executive insights on job displacement vs. net productivity dividends.</li>
+                  <li>Won <strong>1st Place</strong> at the competitive Data Analytics Hackathon organized by ITVedant for depth of analysis and presentation clarity.</li>
+                </ul>
+
+                <!-- Tech Stack Chips -->
+                <div class="project-tech-tags">
+                  <span class="tech-chip">Advanced Excel</span>
+                  <span class="tech-chip">Pivot Tables</span>
+                  <span class="tech-chip">Dashboard Design</span>
+                  <span class="tech-chip">KPI Analysis</span>
+                  <span class="tech-chip">Data Storytelling</span>
+                  <span class="tech-chip">Economic Modeling</span>
+                </div>
+
+                <div class="project-actions">
+                  <button type="button" class="btn btn-primary open-case-study" data-project="ai-economy">
+                    <span>View Case Study</span>
+                    <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </button>
+                  <a href="https://github.com/SashiRanjan-DA" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <svg class="icon-mini" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                    <span>View Repository</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Right Visual Representation: Premium Artwork + Interactive Excel Spreadsheet Matrix -->
+              <div class="project-visual">
+                <!-- Premium Cinematic Artwork Visual -->
+                <div class="project-artwork-card ai-theme">
+                  <div class="artwork-frame">
+                    <img src="assets/projects/ai-global-economy.jpg" alt="AI and Global Economy Analytics Visualization" loading="lazy" class="project-artwork-img" />
+                    <div class="artwork-hud-overlay">
+                      <div class="hud-tag-row">
+                        <span class="hud-theme-pill ai-pill"><span class="hud-pulse violet"></span>GLOBAL AI RESEARCH</span>
+                        <span class="hud-metric-pill gold-pill">🏆 1ST PLACE WINNER</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="visual-panel-glass">
+                  <!-- Header with Hackathon Badge -->
+                  <div class="panel-header">
+                    <div class="panel-breadcrumbs">
+                      <span class="active-tab-indicator"></span>
+                      <span>AI_GLOBAL_ECONOMY_ANALYSIS.xlsx</span>
+                    </div>
+                    <span class="status-chip gold-badge">🏆 1ST PLACE WINNER</span>
+                  </div>
+
+                  <!-- Interactive Spreadsheet Matrix Mockup with Touch-friendly Scroll -->
+                  <div class="excel-mockup-body">
+                    <div class="excel-table-scroll">
+                      <div class="excel-grid-preview">
+                        <div class="excel-header-row">
+                          <div class="cell header">Industry Sector</div>
+                          <div class="cell header">AI Adoption</div>
+                          <div class="cell header">Workforce Disruption</div>
+                          <div class="cell header">Productivity Delta</div>
+                        </div>
+                        <div class="excel-data-row">
+                          <div class="cell">Financial Services</div>
+                          <div class="cell"><span class="pill-mini purple">78.4%</span></div>
+                          <div class="cell">Moderate (22%)</div>
+                          <div class="cell positive">+31.2% &uarr;</div>
+                        </div>
+                        <div class="excel-data-row">
+                          <div class="cell">Information Tech</div>
+                          <div class="cell"><span class="pill-mini purple">89.1%</span></div>
+                          <div class="cell">High (41%)</div>
+                          <div class="cell positive">+48.5% &uarr;</div>
+                        </div>
+                        <div class="excel-data-row">
+                          <div class="cell">Healthcare &amp; Bio</div>
+                          <div class="cell"><span class="pill-mini purple">62.8%</span></div>
+                          <div class="cell">Low (14%)</div>
+                          <div class="cell positive">+27.4% &uarr;</div>
+                        </div>
+                        <div class="excel-data-row">
+                          <div class="cell">Manufacturing</div>
+                          <div class="cell"><span class="pill-mini purple">54.0%</span></div>
+                          <div class="cell">High (38%)</div>
+                          <div class="cell positive">+19.8% &uarr;</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Pivot Insight Summary -->
+                    <div class="excel-insight-card">
+                      <div class="e-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
+                      </div>
+                      <div class="e-text">
+                        <span class="e-title">Key Hackathon Finding:</span>
+                        <p class="e-desc">Sectors with &gt;70% AI adoption demonstrated a 34% net productivity surplus over a 3-year trailing evaluation.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. "HOW I THINK" INTERACTIVE PROCESS ==================== -->
+    <section id="process" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge">ANALYTICAL METHODOLOGY</div>
+          <h2 class="section-title">FROM MESSY DATA TO <span class="text-gradient">MEANINGFUL DECISIONS</span></h2>
+          <p class="section-subtitle">
+            How I approach data problems systematically: from initial commercial ambiguity to validated executive action.
+          </p>
+        </div>
+
+        <!-- Interactive 6-Step Visual Pipeline -->
+        <div class="process-pipeline-interactive" id="processPipeline">
+          <!-- Step Selector Tabs -->
+          <div class="process-steps-nav">
+            <button class="process-step-btn active" data-step="0">
+              <span class="step-num">01</span>
+              <span class="step-label">Understand</span>
+            </button>
+            <button class="process-step-btn" data-step="1">
+              <span class="step-num">02</span>
+              <span class="step-label">Clean</span>
+            </button>
+            <button class="process-step-btn" data-step="2">
+              <span class="step-num">03</span>
+              <span class="step-label">Transform</span>
+            </button>
+            <button class="process-step-btn" data-step="3">
+              <span class="step-num">04</span>
+              <span class="step-label">Analyze</span>
+            </button>
+            <button class="process-step-btn" data-step="4">
+              <span class="step-num">05</span>
+              <span class="step-label">Visualize</span>
+            </button>
+            <button class="process-step-btn" data-step="5">
+              <span class="step-num">06</span>
+              <span class="step-label">Recommend</span>
+            </button>
+          </div>
+
+          <!-- Dynamic Step Display Container -->
+          <div class="process-display-panel glass-card" id="processDisplayPanel">
+            <div class="process-content-grid">
+              <div class="process-text-pane">
+                <span class="process-step-tag" id="procTag">PHASE 01: PROBLEM FORMULATION</span>
+                <h3 class="process-step-title" id="procTitle">01. Understand The Business Question</h3>
+                <p class="process-step-description" id="procDesc">
+                  Before writing a single query or script, I deconstruct the commercial objective. What decision hinges on this analysis? Who are the stakeholders? What constitutes success? This prevents vanity metrics and guarantees commercial alignment.
+                </p>
+                <div class="process-deliverables" id="procDeliverables">
+                  <span class="deliv-item">&bull; Problem Statement Definition</span>
+                  <span class="deliv-item">&bull; Key Metric Identification</span>
+                  <span class="deliv-item">&bull; Stakeholder Alignment</span>
+                </div>
+              </div>
+
+              <!-- Interactive Data Transformation Simulator Screen -->
+              <div class="process-graphic-pane">
+                <div class="simulator-window">
+                  <div class="sim-header">
+                    <span class="sim-title" id="simTitle">DATA_STATE: RAW_CHAOTIC</span>
+                    <span class="sim-pill" id="simPill">Step 1 of 6</span>
+                  </div>
+                  <div class="sim-canvas" id="simCanvas">
+                    <!-- Dynamic Graphic content rendered via JS -->
+                    <div class="sim-state-visual step-1-visual">
+                      <div class="chaotic-nodes">
+                        <span class="c-dot">?</span>
+                        <span class="c-dot">?</span>
+                        <span class="c-dot">?</span>
+                        <span class="c-dot">?</span>
+                        <span class="c-dot">?</span>
+                      </div>
+                      <span class="sim-caption">Untangled Raw Signals &amp; Business Objectives</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. ANALYTICAL TOOLKIT (SKILLS) ==================== -->
+    <section id="skills" class="section-padding bg-deep">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">TECHNICAL EXPERTISE</div>
+          <h2 class="section-title">MY ANALYTICAL TOOLKIT</h2>
+          <p class="section-subtitle">
+            The specialized tools and frameworks I use to transform raw data into decisions. Grounded in real-world project application—no arbitrary percentages.
+          </p>
+        </div>
+
+        <!-- Skills Filter Bar -->
+        <div class="skills-filter-bar" id="skillsFilterBar">
+          <button class="skill-filter-btn active" data-filter="all">All Skills</button>
+          <button class="skill-filter-btn" data-filter="sql">SQL &amp; Relational</button>
+          <button class="skill-filter-btn" data-filter="bi">BI &amp; Visualization</button>
+          <button class="skill-filter-btn" data-filter="python">Python Analytics</button>
+          <button class="skill-filter-btn" data-filter="excel">Spreadsheets</button>
+          <button class="skill-filter-btn" data-filter="etl">ETL &amp; Prep</button>
+          <button class="skill-filter-btn" data-filter="cloud">Cloud &amp; AI</button>
+        </div>
+
+        <div class="skills-category-grid" id="skillsContainer">
+          <!-- 1. DATA ANALYSIS & SQL -->
+          <div class="skill-category-card" data-cat="sql">
+            <div class="s-card-header">
+              <div class="s-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3 class="s-category-name">Data Analysis &amp; SQL</h3>
+            </div>
+            <p class="s-context">
+              <strong class="text-white">Applied in:</strong> Digital Lending FinTech pipeline and complex relational datasets.
+            </p>
+            <div class="skill-chips-list">
+              <span class="skill-tag highlighted">SQL</span>
+              <span class="skill-tag highlighted">MySQL</span>
+              <span class="skill-tag">Joins &amp; Subqueries</span>
+              <span class="skill-tag">Common Table Expressions (CTEs)</span>
+              <span class="skill-tag">Window Functions</span>
+              <span class="skill-tag">Aggregate Functions</span>
+              <span class="skill-tag">CASE WHEN Logic</span>
+              <span class="skill-tag">GROUP BY &amp; HAVING</span>
+            </div>
+          </div>
+
+          <!-- 2. PROGRAMMING & PYTHON -->
+          <div class="skill-category-card" data-cat="python">
+            <div class="s-card-header">
+              <div class="s-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="s-category-name">Programming &amp; Python</h3>
+            </div>
+            <p class="s-context">
+              <strong class="text-white">Applied in:</strong> Automated data generation, statistical transformation, and DB ingestion.
+            </p>
+            <div class="skill-chips-list">
+              <span class="skill-tag highlighted">Python</span>
+              <span class="skill-tag highlighted">Pandas</span>
+              <span class="skill-tag highlighted">NumPy</span>
+              <span class="skill-tag">Faker (Synthetic Modeling)</span>
+              <span class="skill-tag">SQLAlchemy</span>
+              <span class="skill-tag">PyMySQL</span>
+            </div>
+          </div>
+
+          <!-- 3. BUSINESS INTELLIGENCE -->
+          <div class="skill-category-card" data-cat="bi">
+            <div class="s-card-header">
+              <div class="s-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <h3 class="s-category-name">Business Intelligence</h3>
+            </div>
+            <p class="s-context">
+              <strong class="text-white">Applied in:</strong> Tesla 5-page dashboard and FinTech portfolio reporting.
+            </p>
+            <div class="skill-chips-list">
+              <span class="skill-tag highlighted">Power BI</span>
+              <span class="skill-tag highlighted">DAX (30+ Measures)</span>
+              <span class="skill-tag">Power Query</span>
+              <span class="skill-tag">Star Schema Modeling</span>
+              <span class="skill-tag">Executive KPI Dashboards</span>
+              <span class="skill-tag">Interactive Visualizations</span>
+            </div>
+          </div>
+
+          <!-- 4. SPREADSHEET ANALYTICS -->
+          <div class="skill-category-card" data-cat="excel">
+            <div class="s-card-header">
+              <div class="s-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              </div>
+              <h3 class="s-category-name">Spreadsheet Analytics</h3>
+            </div>
+            <p class="s-context">
+              <strong class="text-white">Applied in:</strong> 1st Place Hackathon Global AI Impact analysis.
+            </p>
+            <div class="skill-chips-list">
+              <span class="skill-tag highlighted">Advanced Excel</span>
+              <span class="skill-tag highlighted">Pivot Tables &amp; Charts</span>
+              <span class="skill-tag">XLOOKUP / VLOOKUP</span>
+              <span class="skill-tag">Nested IF &amp; Logic</span>
+              <span class="skill-tag">Conditional Formatting</span>
+              <span class="skill-tag">Google Sheets</span>
+            </div>
+          </div>
+
+          <!-- 5. DATA PREPARATION & ETL -->
+          <div class="skill-category-card" data-cat="etl">
+            <div class="s-card-header">
+              <div class="s-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              </div>
+              <h3 class="s-category-name">Data Preparation &amp; ETL</h3>
+            </div>
+            <p class="s-context">
+              <strong class="text-white">Applied in:</strong> Multi-source normalization, validation pipelines, and data cleanliness.
+            </p>
+            <div class="skill-chips-list">
+              <span class="skill-tag highlighted">Data Cleaning</span>
+              <span class="skill-tag highlighted">Data Transformation</span>
+              <span class="skill-tag">Data Validation Checks</span>
+              <span class="skill-tag">ETL Workflows</span>
+              <span class="skill-tag">Relational Integrity</span>
+              <span class="skill-tag">Business Reporting</span>
+            </div>
+          </div>
+
+          <!-- 6. TABLEAU, CLOUD & AI -->
+          <div class="skill-category-card" data-cat="cloud">
+            <div class="s-card-header">
+              <div class="s-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+              </div>
+              <h3 class="s-category-name">Tableau &amp; Modern Analytics</h3>
+            </div>
+            <p class="s-context">
+              <strong class="text-white">Applied in:</strong> Executive visual presentation and modern data cloud workflows.
+            </p>
+            <div class="skill-chips-list">
+              <span class="skill-tag highlighted">Tableau</span>
+              <span class="skill-tag">Tableau Dashboards</span>
+              <span class="skill-tag">Google Cloud Fundamentals</span>
+              <span class="skill-tag">Cloud Data Analytics</span>
+              <span class="skill-tag">AI/ML Fundamentals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. EXPERIENCE & CAREER STORY ==================== -->
+    <section id="experience" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">PROFESSIONAL TRACK RECORD</div>
+          <h2 class="section-title">EXPERIENCE &amp; BACKGROUND</h2>
+          <p class="section-subtitle">
+            How commercial experience shaped my data-first analytical perspective.
+          </p>
+        </div>
+
+        <div class="experience-layout-grid">
+          <!-- Left: Experience Card -->
+          <div class="experience-timeline-card glass-card">
+            <div class="exp-card-header">
+              <div class="exp-title-group">
+                <h3 class="exp-role">Business Development Executive</h3>
+                <div class="exp-company-group">
+                  <span class="exp-company">UNACADEMY</span>
+                  <span class="exp-dot">&bull;</span>
+                  <span class="exp-dates">Apr 2025 &ndash; Sep 2025</span>
+                </div>
+              </div>
+              <div class="exp-badge">COMMERCIAL IMPACT</div>
+            </div>
+
+            <!-- Resume Supported Responsibilities -->
+            <ul class="exp-responsibilities">
+              <li>
+                <strong class="text-white">Lead Funnel &amp; CRM Analytics:</strong> Managed and analyzed student lead pipelines using CRM platforms to monitor stage conversion performance, identify drop-off friction points, and improve follow-up cadence.
+              </li>
+              <li>
+                <strong class="text-white">Commercial Contribution:</strong> Generated an average business contribution of <strong class="text-gradient">₹2.5L per sales cycle</strong> through data-driven customer segmentation and targeted engagement.
+              </li>
+              <li>
+                <strong class="text-white">Cross-Functional Collaboration:</strong> Tracked customer behavioral trends, sales performance metrics, and conversion outcomes while collaborating with academic advising and operations teams.
+              </li>
+            </ul>
+
+            <!-- Key Metric Tag Box -->
+            <div class="exp-impact-highlight">
+              <div class="exp-impact-icon">₹</div>
+              <div class="exp-impact-content">
+                <span class="imp-num">₹2.5 Lakhs</span>
+                <span class="imp-desc">Average Business Contribution Generated per Sales Cycle via Data-Driven Customer Targeting</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Career Positioning Story -->
+          <div class="career-story-card glass-card">
+            <div class="story-tag">CAREER NARRATIVE</div>
+            <h3 class="story-title">Business Experience &rarr; Data Analytics</h3>
+            <p class="story-text">
+              My professional journey began in business development, where I worked directly with customer behavior, sales pipelines, lead qualification stages, and conversion bottlenecks.
+            </p>
+            <p class="story-text">
+              That experience helped me understand the <em>commercial heartbeat</em> behind data: how a single percentage point increase in conversion or a decrease in default risk directly impacts bottom-line revenue.
+            </p>
+            <p class="story-text">
+              This realization motivated my dedicated transition into advanced analytics&mdash;combining commercial intuition with technical mastery in SQL, Python, Power BI, and relational database architecture to build solutions that don't just produce reports, but drive executive decisions.
+            </p>
+
+            <!-- Visual Flow Pill -->
+            <div class="career-flow-pills">
+              <span class="c-pill">Business Development</span>
+              <span class="c-sep">&rarr;</span>
+              <span class="c-pill">Customer Data</span>
+              <span class="c-sep">&rarr;</span>
+              <span class="c-pill">Conversion Metrics</span>
+              <span class="c-sep">&rarr;</span>
+              <span class="c-pill highlighted">Data Analytics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 9. EDUCATION & ACHIEVEMENTS ==================== -->
+    <section id="education" class="section-padding bg-deep">
+      <div class="container">
+        <div class="education-achievements-grid">
+          <!-- Education Column -->
+          <div class="edu-column">
+            <div class="section-badge">ACADEMIC FOUNDATION</div>
+            <h2 class="section-title-sm">EDUCATION</h2>
+
+            <div class="edu-cards-list">
+              <!-- Degree 1 -->
+              <div class="edu-card glass-card">
+                <div class="edu-year">2026 (Completed / In Progress)</div>
+                <h3 class="edu-degree">Master in Data Science and Analytics (MDSA)</h3>
+                <div class="edu-institution">ITVedant Education Pvt. Ltd.</div>
+                <p class="edu-focus">
+                  <strong class="text-white">Curriculum Focus:</strong> Advanced Excel, SQL &amp; Relational Databases, Python Analytics, Power BI &amp; DAX, Tableau, Machine Learning Fundamentals.
+                </p>
+              </div>
+
+              <!-- Degree 2 -->
+              <div class="edu-card glass-card">
+                <div class="edu-year">2024</div>
+                <h3 class="edu-degree">Bachelor of Commerce (B.Com)</h3>
+                <div class="edu-institution">Dr. Bhim Rao Ambedkar College &bull; University of Delhi</div>
+                <p class="edu-focus">
+                  <strong class="text-white">Focus:</strong> Business Economics, Financial Accounting, Commercial Statistics, Business Organization &amp; Management.
+                </p>
+              </div>
+
+              <!-- Degree 3 -->
+              <div class="edu-card glass-card">
+                <div class="edu-year">2021</div>
+                <h3 class="edu-degree">Higher Secondary &ndash; Class XII</h3>
+                <div class="edu-institution">Army Public School, Amritsar (CBSE)</div>
+                <p class="edu-focus">
+                  Academic foundation in commerce, mathematics, economics, and business studies.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievements Column -->
+          <div class="achieve-column">
+            <div class="section-badge">HONORS &amp; RECOGNITION</div>
+            <h2 class="section-title-sm">A FEW THINGS I'M PROUD OF</h2>
+
+            <div class="achieve-cards-list">
+              <!-- Hackathon 1st Place - High Visual Prominence -->
+              <div class="achieve-card gold-border glass-card">
+                <div class="achieve-top-badge">
+                  <span class="gold-trophy">🏆</span>
+                  <span class="achieve-rank">1ST PLACE WINNER</span>
+                </div>
+                <h3 class="achieve-title">Data Analytics Hackathon</h3>
+                <div class="achieve-org">Organized by ITVedant</div>
+                <p class="achieve-desc">
+                  Awarded 1st Place across participating teams for conducting rigorous economic impact modeling on global AI workforce displacement datasets (1,600+ records) and building dynamic interactive executive dashboards.
+                </p>
+              </div>
+
+              <!-- English Debate - Secondary -->
+              <div class="achieve-card glass-card">
+                <div class="achieve-top-badge">
+                  <span class="silver-medal">🥈</span>
+                  <span class="achieve-rank silver-text">2ND PLACE</span>
+                </div>
+                <h3 class="achieve-title">English Debate Competition</h3>
+                <div class="achieve-org">Inter-College Literary Society</div>
+                <p class="achieve-desc">
+                  Recognized for structured persuasive communication, logical argument formulation, and real-time cross-examination skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 10. ABOUT ME (BEYOND THE DATA) ==================== -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="about-grid-wrapper glass-card">
+          <div class="about-text-content">
+            <div class="section-badge">PERSONAL PROFILE</div>
+            <h2 class="section-title">BEYOND THE DATA.</h2>
+
+            <p class="about-p lead">
+              I'm <strong class="text-white">Sashi Ranjan</strong>, a Data &amp; Business Analyst focused on transforming raw, disconnected information into clean insights that empower organizations to make smarter, faster decisions.
+            </p>
+
+            <p class="about-p">
+              My approach unites technical analytics with real-world business acumen&mdash;from designing multi-table relational MySQL databases and Python transformation scripts to architecting DAX-powered Power BI reports and executive Excel dashboards.
+            </p>
+
+            <p class="about-p">
+              I believe data is only as valuable as the decisions it enables. Whether optimizing a digital lending funnel or evaluating decade-long corporate performance, I focus on the commercial questions that move the needle.
+            </p>
+
+            <div class="brand-quote-box">
+              <p class="quote-text">
+                &ldquo;Data tells the story. I find the insight.&rdquo;
+              </p>
+              <span class="quote-author">&mdash; Sashi Ranjan</span>
+            </div>
+          </div>
+
+          <div class="about-sidebar-card">
+            <div class="sidebar-avatar-frame">
+              <div class="avatar-initials">SR</div>
+              <div class="avatar-glow"></div>
+            </div>
+            <div class="sidebar-info">
+              <h3 class="sidebar-name">Sashi Ranjan</h3>
+              <p class="sidebar-role">Data &amp; Business Analyst</p>
+              <div class="sidebar-contact-items">
+                <a href="mailto:ranjans0022@gmail.com" class="sidebar-link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <span>ranjans0022@gmail.com</span>
+                </a>
+                <a href="https://linkedin.com/in/sashi-ranjan" target="_blank" rel="noopener noreferrer" class="sidebar-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  <span>linkedin.com/in/sashi-ranjan</span>
+                </a>
+                <a href="https://github.com/SashiRanjan-DA" target="_blank" rel="noopener noreferrer" class="sidebar-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>github.com/SashiRanjan-DA</span>
+                </a>
+              </div>
+
+              <div class="sidebar-status-tag">
+                <span class="status-pulse-green"></span>
+                <span>Open for Data &amp; Business Analyst Roles</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 11. CONTACT SECTION ==================== -->
+    <section id="contact" class="section-padding bg-deep">
+      <div class="container">
+        <div class="contact-card-wrapper glass-card">
+          <div class="contact-grid">
+            <!-- Left Info -->
+            <div class="contact-info-col">
+              <div class="section-badge">GET IN TOUCH</div>
+              <h2 class="contact-title">HAVE A BUSINESS PROBLEM? <br/><span class="text-gradient">LET'S FIND THE INSIGHT.</span></h2>
+              <p class="contact-subtitle">
+                Whether you're looking for a dedicated Data &amp; Business Analyst, exploring an analytical challenge, or simply want to talk data architecture, I'd love to connect.
+              </p>
+
+              <div class="direct-contact-list">
+                <a href="mailto:ranjans0022@gmail.com" class="direct-contact-item">
+                  <div class="dc-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div class="dc-content">
+                    <span class="dc-label">Email Me Directly</span>
+                    <span class="dc-val">ranjans0022@gmail.com</span>
+                  </div>
+                </a>
+
+                <a href="https://linkedin.com/in/sashi-ranjan" target="_blank" rel="noopener noreferrer" class="direct-contact-item">
+                  <div class="dc-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  </div>
+                  <div class="dc-content">
+                    <span class="dc-label">LinkedIn Profile</span>
+                    <span class="dc-val">linkedin.com/in/sashi-ranjan</span>
+                  </div>
+                </a>
+
+                <a href="https://github.com/SashiRanjan-DA" target="_blank" rel="noopener noreferrer" class="direct-contact-item">
+                  <div class="dc-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  </div>
+                  <div class="dc-content">
+                    <span class="dc-label">GitHub Portfolio</span>
+                    <span class="dc-val">github.com/SashiRanjan-DA</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Interactive Contact Form -->
+            <div class="contact-form-col">
+              <form class="contact-form" id="portfolioContactForm">
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Your Name</label>
+                  <input type="text" id="contactName" name="name" class="form-input" placeholder="e.g. Alex Morgan" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Your Email</label>
+                  <input type="email" id="contactEmail" name="email" class="form-input" placeholder="alex@company.com" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="contactSubject" class="form-label">Subject / Purpose</label>
+                  <input type="text" id="contactSubject" name="subject" class="form-input" placeholder="Data Analyst Role / Project Opportunity" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage" class="form-label">Message</label>
+                  <textarea id="contactMessage" name="message" class="form-textarea" rows="4" placeholder="Tell me about the role, project, or problem you want to solve..." required></textarea>
+                </div>
+
+                <div class="form-submit-row">
+                  <button type="submit" class="btn btn-primary btn-lg w-full" id="contactSubmitBtn">
+                    <span>Send Message</span>
+                    <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                  </button>
+                </div>
+                <div class="form-feedback-msg" id="formFeedback"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== 12. FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo-badge">SR</div>
+          <div class="f-brand-text">
+            <span class="f-name">SASHI RANJAN</span>
+            <span class="f-tagline">Turning Data Into Decisions.</span>
+          </div>
+        </div>
+
+        <div class="footer-social-links">
+          <a href="https://linkedin.com/in/sashi-ranjan" target="_blank" rel="noopener noreferrer" class="f-social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/SashiRanjan-DA" target="_blank" rel="noopener noreferrer" class="f-social-link" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="mailto:ranjans0022@gmail.com" class="f-social-link" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="f-copy">&copy; 2026 Sashi Ranjan. All rights reserved. Crafted with precision for Data &amp; Business Analytics.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          <span>Back to Top</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== 13. CASE STUDY DETAILED MODAL ==================== -->
+  <div class="modal-backdrop" id="caseStudyModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle">
+    <div class="modal-wrapper">
+      <div class="modal-panel glass-card">
+        <!-- Modal Top Bar -->
+        <div class="modal-header">
+          <div class="modal-breadcrumbs">
+            <span class="m-cat-badge" id="modalCategory">FINTECH ANALYTICS</span>
+            <h2 class="modal-project-heading" id="modalProjectTitle">Project Title</h2>
+          </div>
+          <button type="button" class="modal-close-btn" id="closeCaseStudyModal" aria-label="Close Case Study">&times;</button>
+        </div>
+
+        <!-- Modal Nav Tabs -->
+        <div class="modal-nav-tabs">
+          <button class="modal-tab-btn active" data-m-tab="overview">1. Executive Overview</button>
+          <button class="modal-tab-btn" data-m-tab="approach">2. Data &amp; Architecture</button>
+          <button class="modal-tab-btn" data-m-tab="analysis">3. Analysis &amp; Techniques</button>
+          <button class="modal-tab-btn" data-m-tab="insights">4. Key Insights &amp; Impact</button>
+          <button class="modal-tab-btn" data-m-tab="code">5. Code &amp; Schema</button>
+        </div>
+
+        <!-- Modal Dynamic Body -->
+        <div class="modal-body-scrollable" id="modalDynamicBody">
+          <!-- Populated dynamically via JS -->
+        </div>
+
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <div class="modal-tech-summary" id="modalTechSummary">
+            <!-- Tech chips -->
+          </div>
+          <button type="button" class="btn btn-outline btn-sm" id="modalCloseAction">Close Case Study</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 14. RESUME PREVIEW MODAL ==================== -->
+  <div class="modal-backdrop" id="resumeModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle">
+    <div class="modal-wrapper resume-modal-wrapper">
+      <div class="modal-panel glass-card">
+        <!-- Resume Modal Header -->
+        <div class="modal-header">
+          <div class="modal-breadcrumbs">
+            <span class="m-cat-badge">OFFICIAL RESUME</span>
+            <h2 class="modal-project-heading" id="resumeModalTitle">Sashi Ranjan &bull; Resume Summary</h2>
+          </div>
+          <div class="resume-header-actions">
+            <button type="button" class="btn btn-primary btn-sm" id="printResumeBtn">
+              <svg class="icon-mini" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+              <span>Print / Download PDF</span>
+            </button>
+            <button type="button" class="modal-close-btn" id="closeResumeModal" aria-label="Close Resume">&times;</button>
+          </div>
+        </div>
+
+        <!-- Resume Printable Document Body -->
+        <div class="modal-body-scrollable resume-sheet-container" id="resumeDocument">
+          <div class="resume-sheet">
+            <!-- Resume Header -->
+            <div class="res-head">
+              <h1 class="res-name">SASHI RANJAN</h1>
+              <div class="res-role-title">DATA &amp; BUSINESS ANALYST</div>
+              <div class="res-contact-bar">
+                <span>📧 ranjans0022@gmail.com</span>
+                <span>&bull;</span>
+                <span>🔗 linkedin.com/in/sashi-ranjan</span>
+                <span>&bull;</span>
+                <span>💻 github.com/SashiRanjan-DA</span>
+              </div>
+            </div>
+
+            <!-- Professional Summary -->
+            <div class="res-section">
+              <h3 class="res-sec-title">PROFESSIONAL SUMMARY</h3>
+              <p class="res-text">
+                Results-driven Data &amp; Business Analyst with hands-on experience in SQL, Python, Power BI, Advanced Excel, and Tableau. Proven track record in designing end-to-end data pipelines, developing complex relational databases (592K+ records), authoring 30+ DAX measures, and translating analytical findings into strategic business decisions. Winner of 1st Place at the ITVedant Data Analytics Hackathon.
+              </p>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="res-section">
+              <h3 class="res-sec-title">TECHNICAL SKILLS</h3>
+              <div class="res-skills-grid">
+                <div><strong>Languages &amp; DBs:</strong> SQL (MySQL, Joins, CTEs, Window Functions), Python (Pandas, NumPy, Faker, SQLAlchemy, PyMySQL)</div>
+                <div><strong>Business Intelligence:</strong> Power BI, DAX (30+ Measures), Power Query, Star Schema Data Modeling, KPI Dashboards, Tableau</div>
+                <div><strong>Spreadsheets &amp; ETL:</strong> Advanced Excel (Pivot Tables, XLOOKUP, Nested IFs, Conditional Formatting), ETL Workflows, Data Validation</div>
+                <div><strong>Cloud &amp; Fundamentals:</strong> Google Cloud Platform Fundamentals, Cloud Data Analytics, AI/ML Concepts</div>
+              </div>
+            </div>
+
+            <!-- Featured Projects -->
+            <div class="res-section">
+              <h3 class="res-sec-title">ANALYTICS PROJECTS</h3>
+              
+              <div class="res-item">
+                <div class="res-item-head">
+                  <span class="res-item-title">Digital Lending &amp; FinTech Analytics Pipeline</span>
+                  <span class="res-item-meta">Python &bull; MySQL &bull; Power BI</span>
+                </div>
+                <ul class="res-item-bullets">
+                  <li>Built an end-to-end fintech analytics pipeline using Python to generate, clean, validate, and transform 592K+ records across 7 interconnected datasets covering customer profiles, credit underwriting, loan disbursement, EMI repayments, and delinquency recovery.</li>
+                  <li>Designed and loaded a normalized MySQL relational database using SQLAlchemy and PyMySQL, enforcing ETL workflows, data-quality assertions, and primary/foreign key relationships.</li>
+                  <li>Prepared analytics-ready datasets and KPI frameworks in Power BI to evaluate loan performance, borrower risk segmentation, DPD delinquency, and collection efficiency.</li>
+                </ul>
+              </div>
+
+              <div class="res-item">
+                <div class="res-item-head">
+                  <span class="res-item-title">Tesla Business Performance Analytics (2015–2025)</span>
+                  <span class="res-item-meta">Power BI &bull; DAX &bull; Power Query</span>
+                </div>
+                <ul class="res-item-bullets">
+                  <li>Built a 5-page interactive Power BI dashboard analyzing Tesla's business and operational performance across a 10-year historical timeline.</li>
+                  <li>Developed 30+ DAX measures for executive KPI tracking, YoY growth rates, production vs. delivery ratios, and margin analysis.</li>
+                  <li>Performed comprehensive data transformation using Power Query, implementing drill-throughs, bookmarks, dynamic slicers, and executive summary layers.</li>
+                </ul>
+              </div>
+
+              <div class="res-item">
+                <div class="res-item-head">
+                  <span class="res-item-title">AI &amp; Its Impact on the Global Economy 🏆 (1st Place Winner)</span>
+                  <span class="res-item-meta">Advanced Excel &bull; Pivot Tables &bull; Storytelling</span>
+                </div>
+                <ul class="res-item-bullets">
+                  <li>Analyzed a dataset of 1,600+ records to evaluate artificial intelligence adoption, workforce disruption, and economic dividends across global industries.</li>
+                  <li>Constructed multi-dimensional interactive Excel dashboards utilizing Pivot Tables, nested formulas, dynamic arrays, and visual KPI cards.</li>
+                  <li>Awarded 1st Place at the Data Analytics Hackathon organized by ITVedant for depth of analysis and executive presentation.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Professional Experience -->
+            <div class="res-section">
+              <h3 class="res-sec-title">PROFESSIONAL EXPERIENCE</h3>
+              <div class="res-item">
+                <div class="res-item-head">
+                  <span class="res-item-title">Business Development Executive &mdash; Unacademy</span>
+                  <span class="res-item-meta">Apr 2025 &ndash; Sep 2025</span>
+                </div>
+                <ul class="res-item-bullets">
+                  <li>Managed and analyzed student lead pipelines using CRM platforms to monitor stage conversion metrics and enhance follow-up decisions.</li>
+                  <li>Generated an average business contribution of ₹2.5L per sales cycle through data-driven customer engagement and segmentation.</li>
+                  <li>Tracked customer behavior, sales conversion funnels, and operational KPIs in collaboration with cross-functional teams.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Education -->
+            <div class="res-section">
+              <h3 class="res-sec-title">EDUCATION</h3>
+              <div class="res-edu-row">
+                <div>
+                  <strong>Master in Data Science and Analytics (MDSA)</strong> &bull; ITVedant
+                </div>
+                <span class="res-year">2026</span>
+              </div>
+              <div class="res-edu-row">
+                <div>
+                  <strong>Bachelor of Commerce (B.Com)</strong> &bull; Dr. Bhim Rao Ambedkar College, University of Delhi
+                </div>
+                <span class="res-year">2024</span>
+              </div>
+              <div class="res-edu-row">
+                <div>
+                  <strong>Higher Secondary &ndash; Class XII</strong> &bull; Army Public School, Amritsar (CBSE)
+                </div>
+                <span class="res-year">2021</span>
+              </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="res-section">
+              <h3 class="res-sec-title">HONORS &amp; ACHIEVEMENTS</h3>
+              <ul class="res-item-bullets">
+                <li>🏆 <strong>1st Place Winner:</strong> Data Analytics Hackathon &mdash; ITVedant</li>
+                <li>🥈 <strong>2nd Place:</strong> English Debate Competition &mdash; Inter-College Literary Society</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
